@@ -1,0 +1,1 @@
+<view class="content color"><image class="logo" src="/static/logo.png"></image><view><text class="title">{{title}}</text><button type="default" data-event-opts="{{[['tap',[['open',['$event']]]]]}}" bindtap="__e">打开新页面</button></view></view>
