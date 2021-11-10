@@ -1,6 +1,7 @@
 <template>
 	<view class="content color">
 		<image class="logo" src="/static/logo.png"></image>
+		<test></test>
 		<view>
 			<text class="title">{{title}}</text>
 			<button type="default" @click="open">打开新页面</button>
@@ -9,11 +10,19 @@
 </template>
 
 <script>
+	import test from '@/components/test.vue';
 	export default {
+		components:{
+			test
+		},
 		data() {
 			return {
 				title: 'Hello'
 			}
+		},
+		// tabbar切换触发
+		onTabItemTap(e) {
+			console.log(e)
 		},
 		// 监听页面加载
 		onLoad() {
@@ -54,8 +63,8 @@
 	}
 </script>
 
-<style>
-	@import './index.css';
+<style lang="scss">
+	@import './index.scss';
 	page {
 		background-color: #007AFF;
 	}

@@ -41,7 +41,7 @@
   "compileType": "miniprogram",
   "libVersion": "",
   "appid": "touristappid",
-  "projectname": "test-uniapp",
+  "projectname": "demo-uni-app",
   "condition": {
     "search": {
       "list": []

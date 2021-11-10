@@ -106,7 +106,7 @@ exports.default = void 0;
 var _default = {
   // 应用初始化完成，全局只触发一次
   onLaunch: function onLaunch() {
-    console.log('App Launch');
+    console.log('App Launch'); // 用户登录，项目初始化
   },
   onShow: function onShow() {
     console.log('App Show');
